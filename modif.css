@@ -1,0 +1,526 @@
+*,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+.Navbar{
+    background-color: grey;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+
+.NavKi{
+    flex: 1;
+}
+
+.NavKa{
+    flex: 1;
+}
+
+.img-Navbar{
+    font-size: 2px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 100px;
+    height: 100px;
+    margin-left: 50px;
+}
+
+.ul-NavKa{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-right: 70px;
+    font-size: 15;
+}
+
+.li-NavKa{
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 12px 8px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.a-NavKa{
+    text-decoration: none;
+    color: white;
+}
+
+.ul-Navbar{
+    background-color: grey;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 75px;
+}
+
+.li-Navbar{
+    list-style: none;
+    padding: 5px;
+    margin: 20px;
+    font-size: 15;
+}
+
+.a-Navbar{
+    color: white;
+    text-decoration: none;
+}
+
+
+.Isi1{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-image: url(bgbgbaru.jpg);
+    height: 630px;
+}
+
+.Isi-Kiri{
+    flex: 1.5;
+    display: flex;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.Isi-Kanan{
+    flex: 1;
+    text-align: right;
+}
+
+.h1-Isi{
+    text-align: left;
+    font-weight: bold;
+    font-size: 35;
+    line-height: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+
+.h3-Isi{
+    margin-top: 50px;
+    text-align: left;
+    line-height: 1;
+    font-size: 20;
+    font-weight: 100;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    color: #444;
+    letter-spacing: 1.5;
+    line-height: 1.5;
+}
+
+.li-Isi{
+    list-style: none;
+    margin-top: 30px;
+}
+
+.a-Isi{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 6px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 20px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2-Isi{
+    background-color: black;
+    color: white;
+    padding: 12px 6px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 20px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-Isi{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    border-radius: 8px;
+    height: 600px;
+    width: 500px;
+}
+
+.Isi2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 25px;
+    background-image: url(bgbgbaru.jpg);
+    height: 1000px;
+}
+
+.Isi2-Atas{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.h2-Isi2{
+    margin-bottom: 20px;
+    font-size: 50;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu-isi{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    flex-direction: row;
+    gap: 20px;
+    margin-left: 50px;
+}
+
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.a-Menu{
+    text-decoration: none;
+    color: black;
+    font-size: 20;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.menu-card img{
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.ul-LSM{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.li-LSM{
+    list-style: none;
+    margin-top: 10px;
+}
+
+.a-LSM{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 12px 6px;
+    border-radius: 8px;
+    display: inline-block;
+    height: 20px;
+    width: 230px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 18;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footer{
+    background-color: beige;
+    height: 250px;
+    padding: 50px 100px;
+}
+
+.Footer-Utama{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.Footer-Kiri{
+    flex: 1;
+    min-width: 200px;
+}
+
+.Footer-Logo{
+    height: 150px;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.Footer-Tengah1{
+    flex: 1;
+    min-width: 200px;
+}
+
+.h3-Footer{
+    font-size: 25;
+    margin-bottom: 15px;
+    color: black;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.ul-Footer{
+    list-style: none;
+    padding: 0;
+}
+
+.li-Footer{
+    margin: 10px;
+    font-size: 20;
+}
+
+.a-Footer{
+    text-decoration: none;
+    color: black;
+}
+
+.Footer-Tengah2{
+    flex: 1;
+    min-width: 200px;
+}
+
+.Footer-Kanan{
+    flex: 1;
+    min-width: 200px;
+}
+
+.p-Footer{
+    margin-top: 20px;
+    font-size: 25;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+.Menu{
+    display: flex;
+    flex-direction: column;
+    background-image: url(bgbgbaru.jpg);
+    height: 4500px;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.row1{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.MC{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+}
+
+.MC1{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    height: 250px;
+}
+
+.MC2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 250px;
+}
+
+.h2-JM{
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 35px;
+    font-size: 40;
+}
+
+.GM{
+    width: 200px;
+    height: 200px;
+}
+
+.GM1{
+    width: 350px;
+    height: 350px;
+}
+
+.GM2{
+    width: 300px;
+    height: 250px;
+}
+
+.FAQ{
+    display: flex;
+    justify-content: center;
+    padding: 50px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(bgbgbaru.jpg);
+    height: 1000px;
+}
+
+.FAQ-Utama{
+    padding: 0px;
+}
+
+.h1-FAQ{
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    font-size: 30;
+}
+
+.p-FAQ{
+    font-size: 20;
+    width: 850px;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.FAQ-Cadangan{
+    padding: 10px;
+}
+
+.h3-FAQ{
+    font-size: 20;
+    display: flex;
+    justify-content: left;
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 850px;
+}
+
+.p2-FAQ{
+    font-size: 20;
+    display: flex;
+    justify-content: left;
+    margin-left: 45px;
+    margin-top: 10px;
+    width: 850px;
+}
+
+.About{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+    background-image: url(bgbgbaru.jpg);
+    height: 1200px;
+}
+
+.GA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1000px;
+    height: 600px;
+}
+
+.h1-About{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.h2-About{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: 200;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Promotion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 100px;
+    background-image: url(bgbgbaru.jpg);
+    height: 1200px;
+}
+
+.Loc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 100px;
+    background-image: url(bgbgbaru.jpg);
+    height: 1000px;
+}
+
+.h1-Loc{
+    font-size: 25;
+    margin-bottom: 50px;
+}
+
+.gmaps{
+    width: 1000px;
+    height: 600px;
+}
